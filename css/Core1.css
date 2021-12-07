@@ -1,0 +1,124 @@
+@import url("media/Toy Regular.woff");
+
+
+
+  p{
+      font-family: 'Toy Regular';
+      text-align: center;
+      font-size: 30pt;
+      margin-top: 200px;
+
+  }
+  .tooltip {
+    margin-left: 50px;
+    margin-top: 100px;
+    text-decoration:none;
+    position:absolute;
+}
+.tooltip span {
+    display:none;
+}
+.tooltip:hover span {
+    display:block;
+    position:fixed;
+    overflow:hidden;
+}
+  .figure {
+    position: relative;
+    width: 0px; 
+    height:0px;
+}
+.figure img.image-hover {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 4.5px;
+  bottom: 0;
+  object-fit: contain;
+  opacity: 0;
+  transition: opacity 0s;
+}
+.figure:hover img.image-hover {
+  opacity: 1;
+}
+.figure .title {
+  position: absolute;
+  top: 240px;
+  right: 0;
+  left: 195px;
+  bottom: 0;
+  object-fit: contain;
+  opacity: 0;
+  transition: opacity 0s;
+}
+.figure:hover .title {
+  opacity: 1;
+}
+
+.figure2 {
+    position: absolute;
+    width: 0px; 
+    height:0px;
+    left:350px;
+}
+.figure2 img.image-hover {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 4.5px;
+  bottom: 0;
+  object-fit: contain;
+  opacity: 0;
+  transition: opacity 0s;
+}
+.figure2:hover img.image-hover {
+  opacity: 1;
+}
+.figure2 .title {
+  position: absolute;
+  top: 310px;
+  right: 0;
+  left: 195px;
+  bottom: 0;
+  object-fit: contain;
+  opacity: 0;
+  transition: opacity 0s;
+}
+.figure2:hover .title {
+  opacity: 1;
+}
+
+
+.figure3 {
+    position: absolute;
+    width: 0px; 
+    height:0px;
+    left:700px;
+}
+.figure3 .image-hover {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 4.5px;
+  bottom: 0;
+  object-fit: contain;
+  opacity: 0;
+  transition: opacity 0s;
+}
+.figure3:hover .image-hover {
+  opacity: 1;
+}
+.figure3 .title {
+  position: absolute;
+  top: 325px;
+  right: 0;
+  left: 214px;
+  bottom: 0;
+  object-fit: contain;
+  opacity: 0;
+  transition: opacity 0s;
+}
+.figure3:hover .title {
+  opacity: 1;
+}
+

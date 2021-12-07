@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+        <head>
+            <title>
+                One-Man Canon
+            </title>
+            <link rel="stylesheet" href="/Users/jolene/Desktop/Core1/onemancanon/css/canon.css"> 
+            <link href='media/Toy Regular.woff' rel='stylesheet' type='text/css'>
+            <script src="/Users/jolene/Desktop/Core1/onemancanon/js/canon.js"></script>
+        </head>
+        <h1>One-Man Canon
+          <br><small><small><a href=" https://jolenene.github.io/onemancanon.github.io/">link to the game</a></small></small></br>
+        </h1>
+     
+        <div class="row">
+      <div class="column1">
+       
+        <p>The prompt for this website is to make a simple, interactive game 
+          using only html elements, such as buttons, colorpickers, etc. 
+          I chose to embed lots of audioclips of people playing canon, 
+        the cello quintet, and let users choose what speedthe song should be played,
+        as well as how many players. I have fond memories of playing this piece with
+        other people and always messing up:people always either missed the cue to start playing,
+        or lost their tempo and ended faster or slower.<br>
+          I wanted to replicate that feeling. Even though this idea is super simple, I really enjoy 
+          playing around with it, the simplicity allows for further expansion as well. Maybe one day I'll
+          make a whole band! For now, these ten players would be enough. Unrelated but it was so hard to 
+          find singular people playing the song...most were people filming themselves practicing, which adds to
+          the overall mood I believe. I learned to use audio elements in the project.
+      </br></p>
+      </div>
+      <div class="column2">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/cGwsmaHanIo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        
+      </div>
+    </div>
+    
+              <h2>listen to the song</h2>
+              <div class="cellists">
+                <audio id="audio_play">
+                  <source src="media/canon4 copy.mp3" type="audio/ogg" />
+                  <source src="media/canon1 copy.mp3" type="audio/mpeg" />
+              </audio>
+              
+              <img src="media/cellist.gif" onClick="document.getElementById('audio_play').play(); return false;" />
+              
+              <img src="media/cellist-export.gif" onClick="document.getElementById('audio_play').pause(); return false;" />
+
+            </div>
+     
+
+
+
+        
+ 
+</html>
